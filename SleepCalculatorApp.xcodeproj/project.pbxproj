@@ -11,6 +11,7 @@
 		DD840B78292BCD7700EE9BBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD840B77292BCD7700EE9BBD /* ContentView.swift */; };
 		DD840B7A292BCD8000EE9BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD840B79292BCD8000EE9BBD /* Assets.xcassets */; };
 		DD840B7D292BCD8000EE9BBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD840B7C292BCD8000EE9BBD /* Preview Assets.xcassets */; };
+		DD840B84292BD50A00EE9BBD /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DD840B83292BD50A00EE9BBD /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DD840B77292BCD7700EE9BBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD840B79292BCD8000EE9BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD840B7C292BCD8000EE9BBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD840B83292BD50A00EE9BBD /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		DD840B74292BCD7700EE9BBD /* SleepCalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
+				DD840B83292BD50A00EE9BBD /* SleepCalculator.mlmodel */,
 				DD840B75292BCD7700EE9BBD /* SleepCalculatorAppApp.swift */,
 				DD840B77292BCD7700EE9BBD /* ContentView.swift */,
 				DD840B79292BCD8000EE9BBD /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD840B78292BCD7700EE9BBD /* ContentView.swift in Sources */,
+				DD840B84292BD50A00EE9BBD /* SleepCalculator.mlmodel in Sources */,
 				DD840B76292BCD7700EE9BBD /* SleepCalculatorAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +280,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
